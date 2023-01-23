@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c3ad3a0a-849d-453f-8020-94d9387cc237" name="Changes" comment="simple test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RadioTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,12 +40,32 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.RadioTest.equivalence2">
+  <component name="RunManager" selected="JUnit.RadioTest.nextscope3">
     <configuration name="RadioTest.equivalence2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Radioactive" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RadioTest" />
       <option name="METHOD_NAME" value="equivalence2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RadioTest.nextscope1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Radioactive" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RadioTest" />
+      <option name="METHOD_NAME" value="nextscope1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RadioTest.nextscope3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Radioactive" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RadioTest" />
+      <option name="METHOD_NAME" value="nextscope3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -71,33 +91,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.testscope2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Radioactive" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RadioTest" />
-      <option name="METHOD_NAME" value="testscope2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RadioTest.testscope4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Radioactive" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RadioTest" />
-      <option name="METHOD_NAME" value="testscope4" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RadioTest.nextscope3" />
+        <item itemvalue="JUnit.RadioTest.nextscope1" />
         <item itemvalue="JUnit.RadioTest.equivalence2" />
         <item itemvalue="JUnit.RadioTest.testimpossible2" />
         <item itemvalue="JUnit.RadioTest.testimpossible1" />
-        <item itemvalue="JUnit.RadioTest.testscope4" />
-        <item itemvalue="JUnit.RadioTest.testscope2" />
       </list>
     </recent_temporary>
   </component>
@@ -124,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674510728504</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="simple test">
+      <created>1674512461005</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674512461006</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

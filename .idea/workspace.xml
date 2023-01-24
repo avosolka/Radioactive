@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3ad3a0a-849d-453f-8020-94d9387cc237" name="Changes" comment="simple test two">
+    <list default="true" id="c3ad3a0a-849d-453f-8020-94d9387cc237" name="Changes" comment="test1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Radio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RadioTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Radio.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Radio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/RadioTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RadioTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,52 +43,52 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.RadioTest.prevscope3">
-    <configuration name="RadioTest.nextscope3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RadioTest.reduce5">
+    <configuration name="RadioTest.reduce1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Radioactive" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RadioTest" />
-      <option name="METHOD_NAME" value="nextscope3" />
+      <option name="METHOD_NAME" value="reduce1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.prevscope1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.reduce2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Radioactive" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RadioTest" />
-      <option name="METHOD_NAME" value="prevscope1" />
+      <option name="METHOD_NAME" value="reduce2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.prevscope2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.reduce3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Radioactive" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RadioTest" />
-      <option name="METHOD_NAME" value="prevscope2" />
+      <option name="METHOD_NAME" value="reduce3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.prevscope3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.reduce4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Radioactive" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RadioTest" />
-      <option name="METHOD_NAME" value="prevscope3" />
+      <option name="METHOD_NAME" value="reduce4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.prevvalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.reduce5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Radioactive" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RadioTest" />
-      <option name="METHOD_NAME" value="prevvalid" />
+      <option name="METHOD_NAME" value="reduce5" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -93,11 +96,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RadioTest.prevscope3" />
-        <item itemvalue="JUnit.RadioTest.prevscope2" />
-        <item itemvalue="JUnit.RadioTest.prevscope1" />
-        <item itemvalue="JUnit.RadioTest.prevvalid" />
-        <item itemvalue="JUnit.RadioTest.nextscope3" />
+        <item itemvalue="JUnit.RadioTest.reduce5" />
+        <item itemvalue="JUnit.RadioTest.reduce4" />
+        <item itemvalue="JUnit.RadioTest.reduce3" />
+        <item itemvalue="JUnit.RadioTest.reduce2" />
+        <item itemvalue="JUnit.RadioTest.reduce1" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +148,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674513515763</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="test">
+      <created>1674599406673</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674599406673</updated>
+    </task>
+    <task id="LOCAL-00007" summary="test1">
+      <created>1674599715365</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1674599715365</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -163,6 +180,11 @@
     <MESSAGE value="start" />
     <MESSAGE value="simple test" />
     <MESSAGE value="simple test two" />
-    <option name="LAST_COMMIT_MESSAGE" value="simple test two" />
+    <MESSAGE value="test" />
+    <MESSAGE value="test1" />
+    <option name="LAST_COMMIT_MESSAGE" value="test1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Radioactive$RadioTest_increase1.ic" NAME="RadioTest.increase1 Coverage Results" MODIFIED="1674600505817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

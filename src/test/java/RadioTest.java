@@ -134,5 +134,45 @@ public class RadioTest {
         Assertions.assertEquals(expected, actual);
     }
 
+    @Test
+    public void prevvalid () {
+        Radio radio = new Radio();
+        radio.setCurrentStation(4);
+        radio.prev();
+        int actual = radio.getCurrentStation();
+        int expected = 3;
+        Assertions.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void prevscope1 () {
+        Radio radio = new Radio();
+        radio.setCurrentStation(0);
+        radio.prev();
+        int actual = radio.getCurrentStation();
+        int expected = 9;
+        Assertions.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void prevscope2 () {
+        Radio radio = new Radio();
+        radio.setCurrentStation(1);
+        radio.prev();
+        int actual = radio.getCurrentStation();
+        int expected = 0;
+        Assertions.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void prevscope3 () {
+        Radio radio = new Radio();
+        radio.setCurrentStation(9);
+        radio.prev();
+        int actual = radio.getCurrentStation();
+        int expected = 8;
+        Assertions.assertEquals(expected, actual);
+    }
+
 
 }

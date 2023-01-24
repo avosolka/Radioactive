@@ -49,7 +49,7 @@ public class RadioTest {
     }
 
     @Test
-    public void testimpossible1 () {
+    public void testimpossible1() {
         Radio radio = new Radio();
         radio.setCurrentStation(-1);
         int actual = radio.getCurrentStation();
@@ -58,7 +58,7 @@ public class RadioTest {
     }
 
     @Test
-    public void testimpossible2 () {
+    public void testimpossible2() {
         Radio radio = new Radio();
         radio.setCurrentStation(10);
         int actual = radio.getCurrentStation();
@@ -67,7 +67,7 @@ public class RadioTest {
     }
 
     @Test
-    public void equivalence1 () {
+    public void equivalence1() {
         Radio radio = new Radio();
         radio.setCurrentStation(-25);
         int actual = radio.getCurrentStation();
@@ -76,7 +76,7 @@ public class RadioTest {
     }
 
     @Test
-    public void equivalence2 () {
+    public void equivalence2() {
         Radio radio = new Radio();
         radio.setCurrentStation(25);
         int actual = radio.getCurrentStation();
@@ -85,7 +85,7 @@ public class RadioTest {
     }
 
     @Test
-    public void nextscope1 () {
+    public void nextscope1() {
         Radio radio = new Radio();
         radio.setCurrentStation(9);
         radio.next();
@@ -95,7 +95,7 @@ public class RadioTest {
     }
 
     @Test
-    public void nextscope2 () {
+    public void nextscope2() {
         Radio radio = new Radio();
         radio.setCurrentStation(8);
         radio.next();
@@ -105,7 +105,7 @@ public class RadioTest {
     }
 
     @Test
-    public void nextvalid () {
+    public void nextvalid() {
         Radio radio = new Radio();
         radio.setCurrentStation(4);
         radio.next();
@@ -115,7 +115,7 @@ public class RadioTest {
     }
 
     @Test
-    public void nextscope3 () {
+    public void nextscope3() {
         Radio radio = new Radio();
         radio.setCurrentStation(0);
         radio.next();
@@ -125,7 +125,7 @@ public class RadioTest {
     }
 
     @Test
-    public void nextscope4 () {
+    public void nextscope4() {
         Radio radio = new Radio();
         radio.setCurrentStation(1);
         radio.next();
@@ -135,7 +135,7 @@ public class RadioTest {
     }
 
     @Test
-    public void prevvalid () {
+    public void prevvalid() {
         Radio radio = new Radio();
         radio.setCurrentStation(4);
         radio.prev();
@@ -145,7 +145,7 @@ public class RadioTest {
     }
 
     @Test
-    public void prevscope1 () {
+    public void prevscope1() {
         Radio radio = new Radio();
         radio.setCurrentStation(0);
         radio.prev();
@@ -155,7 +155,7 @@ public class RadioTest {
     }
 
     @Test
-    public void prevscope2 () {
+    public void prevscope2() {
         Radio radio = new Radio();
         radio.setCurrentStation(1);
         radio.prev();
@@ -165,7 +165,7 @@ public class RadioTest {
     }
 
     @Test
-    public void prevscope3 () {
+    public void prevscope3() {
         Radio radio = new Radio();
         radio.setCurrentStation(9);
         radio.prev();
@@ -175,7 +175,7 @@ public class RadioTest {
     }
 
     @Test
-    public void increase1 () {
+    public void increase1() {
         Radio radio = new Radio();
         radio.setCurrentVolume(8);
         radio.increaseVolume();
@@ -185,7 +185,7 @@ public class RadioTest {
     }
 
     @Test
-    public void increase2 () {
+    public void increase2() {
         Radio radio = new Radio();
         radio.setCurrentVolume(10);
         radio.increaseVolume();
@@ -195,7 +195,7 @@ public class RadioTest {
     }
 
     @Test
-    public void increase3 () {
+    public void increase3() {
         Radio radio = new Radio();
         radio.setCurrentVolume(0);
         radio.increaseVolume();
@@ -205,50 +205,50 @@ public class RadioTest {
     }
 
     @Test
-    public void reduce1 () {
+    public void reduce1() {
         Radio radio = new Radio();
         radio.setCurrentVolume(0);
-        radio.reduceVolume() ;
+        radio.reduceVolume();
         int actual = radio.getCurrentVolume();
         int expected = 0;
         Assertions.assertEquals(expected, actual);
     }
 
     @Test
-    public void reduce2 () {
+    public void reduce2() {
         Radio radio = new Radio();
         radio.setCurrentVolume(1);
-        radio.reduceVolume() ;
+        radio.reduceVolume();
         int actual = radio.getCurrentVolume();
         int expected = 0;
         Assertions.assertEquals(expected, actual);
     }
 
     @Test
-    public void reduce3 () {
+    public void reduce3() {
         Radio radio = new Radio();
         radio.setCurrentVolume(10);
-        radio.reduceVolume() ;
+        radio.reduceVolume();
         int actual = radio.getCurrentVolume();
         int expected = 9;
         Assertions.assertEquals(expected, actual);
     }
 
     @Test
-    public void reduce4 () {
+    public void reduce4() {
         Radio radio = new Radio();
         radio.setCurrentVolume(11);
-        radio.reduceVolume() ;
+        radio.reduceVolume();
         int actual = radio.getCurrentVolume();
         int expected = 10;
         Assertions.assertEquals(expected, actual);
     }
 
     @Test
-    public void reduce5 () {
+    public void reduce5() {
         Radio radio = new Radio();
         radio.setCurrentVolume(12);
-        radio.reduceVolume() ;
+        radio.reduceVolume();
         int actual = radio.getCurrentVolume();
         int expected = 11;
         Assertions.assertEquals(expected, actual);
